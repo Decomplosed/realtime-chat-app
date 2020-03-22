@@ -8,3 +8,5 @@ const App = () => (
     <Route path='/chat' component={Chat} />
   </Router>
 )
+
+export default App
