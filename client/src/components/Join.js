@@ -14,7 +14,7 @@ const Join = () => {
             placeholder='Name'
             className='joinInput'
             type='text'
-            onChange={}
+            onChange={event => setName(event.target.value)}
           />
         </div>
         <div>
@@ -22,7 +22,7 @@ const Join = () => {
             placeholder='Room'
             className='joinInput mt-20'
             type='text'
-            onChange={}
+            onChange={event => setRoom(event.target.value)}
           />
         </div>
         <Link>
