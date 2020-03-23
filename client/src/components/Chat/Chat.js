@@ -16,7 +16,9 @@ const Chat = ({ location }) => {
 
     setName(name)
     setRoom(room)
-  })
+
+    
+  }, [ENDPOINT, location.search])
 
   return <h1>Chat</h1>
 }
