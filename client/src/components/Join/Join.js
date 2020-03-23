@@ -32,7 +32,7 @@ const Join = () => {
           onClick={event => (!name || !room ? event.preventDefault() : null)}
         >
           <button className='button mt-20' type='submit'>
-            Sign In
+            Join
           </button>
         </Link>
       </div>
