@@ -9,7 +9,8 @@ const Chat = ({ location }) => {
   useEffect(() => {
     const { name, room } = queryString.parse(location.search)
 
-    console.log(name, room)
+    setName(name)
+    setRoom(room)
   })
 
   return <h1>Chat</h1>
