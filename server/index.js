@@ -27,6 +27,8 @@ io.on('connection', socket => {
       .emit('message', { user: 'admin', text: `${user.name} has joined!` })
 
     socket.join(user.room)
+
+    callback()
   })
 
   socket.on('sendMessage', (message, callback) => {
